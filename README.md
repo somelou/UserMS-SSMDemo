@@ -15,7 +15,7 @@
 
 ## 2.项目框架 
 
- <div align=center><img src="https://github.com/somelou/UserMS-SSMDemo/blob/master/Screenshots/ProjectMenu.png"/>测试</div>  
+ <div align=center><img src="https://github.com/somelou/UserMS-SSMDemo/blob/master/Screenshots/ProjectMenu.png" alt="框架包结构截图"/></div>  
 
 **详细说明**
 > * *java包（Source Root）*  
