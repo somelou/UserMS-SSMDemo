@@ -15,8 +15,9 @@
 
 ## 2.项目框架 
 
- <div align=center><img width="400" height="800" src="https://github.com/somelou/UserMS-SSMDemo/blob/master/Screenshots/ProjectMenu.png" alt="框架包结构截图"/></div>  
- *<div align=center>包结构截图</div>*  
+ <div align=center><img width="400" height="800" src="https://github.com/somelou/UserMS-SSMDemo/blob/master/Screenshots/ProjectMenu.png" alt="框架包结构截图"/>  
+成为</div>  
+ <div align=center>包结构截图</div>  
 
 **详细说明**
 > * *java包（Source Root）*  
