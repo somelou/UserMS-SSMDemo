@@ -50,6 +50,7 @@ service：定义接口，包含系统所提供的功能。（service包下再新
 
 ## 4.项目运行效果
 
- <div align=center><img src="Screenshots/Start.png" alt="Start Interface"/><br/>初始界面</div>  
+ <div align=center><img src="Screenshots/Start.png" alt="Start Interface"/>初始界面</div>  
  
- <div align=center><img src="Screenshots/MainOperation.png" alt="Main Operation Interface"/><br/>主操作界面</div>  
+ 
+ <div align=center><img src="Screenshots/MainOperation.png" alt="Main Operation Interface"/>主操作界面</div>  
