@@ -17,13 +17,13 @@
 ![1](https://github.com/somelou/UserMS-SSMDemo/blob/master/Screenshots/ProjectMenu.png)  
 
 **详细说明**
-> * *java包（Source Root）*
+> * *java包（Source Root）*  
 	1. *pojo:*存放自定义的java类。如：paper类，user类，book类等，每个类的属性设为private，并提供public属性的getter/setter方法让外界访问
 service：定义接口，包含系统所提供的功能。（service包下再新建impl包用来实现接口上一个包的接口类）。
 	2. dao：定义接口，包含与数据库进行交互的功能。
 	3. controller：控制器，负责接收页面请求，转发和处理。
 
-> * *resources包*
+> * *resources包*  
 	1. Directory：“mapper”（用于存放xxxMapper.xml文件）和“spring”（用于存放spring-xxx.xml配置文件）。
 	2.  userMapper.xml：mybatis框架mapper代理开发配置文件；
 	3. spring-dao.xml：spring-mybatis整合配置文件;
@@ -34,7 +34,7 @@ service：定义接口，包含系统所提供的功能。（service包下再新
 	  “log4j.properties”（日志输出配置文件）,  
 	  “mybatis-config.xml”（mybatis框架配置文件）。
 
-> * *web-inf目录*  
+> * *web-inf目录*    
 	1. 新建“jsp”包，存放xxx.jsp显示界面。  
 		addUser.jsp：新增用户页面；  
 		allUser.jsp：主操作界面；  
@@ -49,6 +49,8 @@ service：定义接口，包含系统所提供的功能。（service包下再新
 
 ## 4.项目运行效果
 
- <div align=center>![Start Interface](https://github.com/somelou/UserMS-SSMDemo/blob/master/Screenshots/Start.png)初始界面 </div>  
- 
- <div align=center>![Start Interface](https://github.com/somelou/UserMS-SSMDemo/blob/master/Screenshots/MainOperation.png)主操作界面 </div>
+*初始界面*
+![Start Interface](https://github.com/somelou/UserMS-SSMDemo/blob/master/Screenshots/Start.png) 
+
+*主操作界面*
+![Main Operation Interface](https://github.com/somelou/UserMS-SSMDemo/blob/master/Screenshots/MainOperation.png)
