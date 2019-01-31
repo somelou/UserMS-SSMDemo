@@ -15,7 +15,7 @@
 
 ## 2.项目框架 
 
- <div align=center> ![1](https://github.com/somelou/UserMS-SSMDemo/blob/master/Screenshots/ProjectMenu.png)  ces</div>  
+ <div align=center>![1](https://github.com/somelou/UserMS-SSMDemo/blob/master/Screenshots/ProjectMenu.png)  
 
 **详细说明**
 > * *java包（Source Root）*  
