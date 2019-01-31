@@ -18,28 +18,28 @@
  <div align=center><img width="400" height="800" src="/Screenshots/ProjectMenu.png" alt="框架包结构截图"/><br/>包结构截图</div>  
 
 **详细说明**
-> * *java包（Source Root）*  
-			1. *pojo:*存放自定义的java类。如：paper类，user类，book类等，每个类的属性设为private，并提供public属性的getter/setter方法让外界访问
-service：定义接口，包含系统所提供的功能。（service包下再新建impl包用来实现接口上一个包的接口类）。  
-	2. dao：定义接口，包含与数据库进行交互的功能。  
-	3. controller：控制器，负责接收页面请求，转发和处理。  
-
-> * *resources包*  
-	1. Directory：“mapper”（用于存放xxxMapper.xml文件）和“spring”（用于存放spring-xxx.xml配置文件）。  
-	2. userMapper.xml：mybatis框架mapper代理开发配置文件；  
-	3. spring-dao.xml：spring-mybatis整合配置文件;  
-	4. spring-mvc.xml：spring mvc配置文件, 自动扫描控制器，视图模式，注解的启动;  
-	5. spring-service.xml:扫描注解，配置事务器；  
-	6. 文件：  
-	  “jdbc.properties”（mysql数据库配置文件）,    
-	  “log4j.properties”（日志输出配置文件）,    
-	  “mybatis-config.xml”（mybatis框架配置文件）。
-
-> * *web-inf目录*    
-	1. 新建“jsp”包，存放xxx.jsp显示界面     
-		addUser.jsp：新增用户页面；    
-		allUser.jsp：主操作界面；    
-		updateUser.jsp：更新用户界面。
+> > ***java包（Source Root）***  
+> > * pojo：存放自定义的java类。如：paper类，user类，book类等，每个类的属性设为private，并提供public属性的getter/setter方法让外界访问；  
+> > * service：定义接口，包含系统所提供的功能。（service包下再新建impl包用来实现接口上一个包的接口类）；    
+> > * dao：定义接口，包含与数据库进行交互的功能；  
+> > * controller：控制器，负责接收页面请求，转发和处理；  
+>
+> > ***resources包***  
+> > * Directory：“mapper”（用于存放xxxMapper.xml文件）和“spring”（用于存放spring-xxx.xml配置文件）；  
+> > * userMapper.xml：mybatis框架mapper代理开发配置文件；  
+> > * spring-dao.xml：spring-mybatis整合配置文件;  
+> > * spring-mvc.xml：spring mvc配置文件, 自动扫描控制器，视图模式，注解的启动；  
+> > * spring-service.xml：扫描注解，配置事务器；  
+> > * 文件：  
+> > > * “jdbc.properties”：mysql数据库配置文件；   
+> > > * “log4j.properties”：日志输出配置文件；    
+> > > * “mybatis-config.xml”：mybatis框架配置文件；  
+>
+> > ***web-inf目录***    
+> > * 新建“jsp”包（存放xxx.jsp显示界面）： 
+> > > * addUser.jsp：新增用户页面；    
+> > > * allUser.jsp：主操作界面；    
+> > > * updateUser.jsp：更新用户界面。
 
 
 ## 3.项目功能
