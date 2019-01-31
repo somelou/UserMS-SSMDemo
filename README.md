@@ -15,7 +15,8 @@
 
 ## 2.项目框架 
 
- <div align=center><img src="https://github.com/somelou/UserMS-SSMDemo/blob/master/Screenshots/ProjectMenu.png" alt="框架包结构截图"/></div>  
+ <div align=center><img width="500" height="1000" src="https://github.com/somelou/UserMS-SSMDemo/blob/master/Screenshots/ProjectMenu.png" alt="框架包结构截图"/>  开山岛</div>  
+ <center>makedown居中文本</center>
 
 **详细说明**
 > * *java包（Source Root）*  
