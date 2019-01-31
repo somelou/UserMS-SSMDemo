@@ -19,7 +19,7 @@
 
 **详细说明**
 > * *java包（Source Root）*  
-	1. *pojo:*存放自定义的java类。如：paper类，user类，book类等，每个类的属性设为private，并提供public属性的getter/setter方法让外界访问
+			1. *pojo:*存放自定义的java类。如：paper类，user类，book类等，每个类的属性设为private，并提供public属性的getter/setter方法让外界访问
 service：定义接口，包含系统所提供的功能。（service包下再新建impl包用来实现接口上一个包的接口类）。  
 	2. dao：定义接口，包含与数据库进行交互的功能。  
 	3. controller：控制器，负责接收页面请求，转发和处理。  
@@ -50,10 +50,5 @@ service：定义接口，包含系统所提供的功能。（service包下再新
 
 ## 4.项目运行效果
 
- <div align=center><img src="Screenshots/Start.png" alt="Start Interface"/>初始界面</div>  
- 
- 
- 
- 
- 
- <div align=center><img src="Screenshots/MainOperation.png" alt="Main Operation Interface"/>主操作界面</div>  
+ <div align=center>初始界面<img src="Screenshots/Start.png" alt="Start Interface"/></div>  
+ <div align=center>主操作界面<img src="Screenshots/MainOperation.png" alt="Main Operation Interface"/></div>  
