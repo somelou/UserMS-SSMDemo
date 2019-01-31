@@ -14,7 +14,8 @@
  	* SSM框架（Spring+SpringMVC+MyBatis）
 
 ## 2.项目框架 
-![1](https://github.com/somelou/UserMS-SSMDemo/blob/master/Screenshots/ProjectMenu.png)  
+
+<div align=center>![1](https://github.com/somelou/UserMS-SSMDemo/blob/master/Screenshots/ProjectMenu.png) 框架截图 </div>   
 
 **详细说明**
 > * *java包（Source Root）*  
